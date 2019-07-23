@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Bootstrap</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a href="#" class="navbar-brand">My Website</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ml-auto">
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Register Vehicle</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Add Trip</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Analysis</a>
+                        </li>
+                    </ul>
+        </div>
+    </nav>
+
+    <div class="alert alert-primary">
+        Some alert message 1
+    </div>
+
+    <div class="alert alert-secondary">
+        Some alert message 1
+    </div>
+
+    <div class="alert alert-success">
+        Some alert message 1
+    </div>
+
+    <div class="alert alert-danger">
+        Some alert message 1
+    </div>
+
+    <div class="alert alert-warning">
+        Some alert message 1
+    </div>
+
+    <form>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="name">Name</label>
+            <div class="col-md-9">
+                <input type="text" placeholder="Name" name="name" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="email">Email</label>
+            <div class="col-md-9">
+                <input type="email" placeholder="Email" name="email" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="password">Password</label>
+            <div class="col-md-9">
+                <input type="password" placeholder="Password" name="password" class="form-control">
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary col-md-3">Submit</button>
+    </form>
+    <br><br><br><br>
+    <div class="list-group">
+        <a class="list-group-item">
+            Home
+        </a>
+
+        <a class="list-group-item">
+            Notification
+            <span class="badge badge-pill badge-danger justify-content-between">4</span>
+        </a>
+
+        <a class="list-group-item">
+            Search
+        </a>
+    </div>
+
+    <br><br><br><br>
+    <span class="badge badge-pill badge-primary">Primary</span>
+    <span class="badge badge-pill badge-secondary">Secondary</span>
+    <span class="badge badge-pill badge-danger">Danger</span>
+    <br><br><br><br>
+
+    <div class="card">
+        <img src="./card-img.png" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">Test title</h4>
+            <p class="card-text">Class text for something dsample card.</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">List group</li>
+                <li class="list-group-item">List group</li>
+                <li class="list-group-item">List group</li>
+                <li class="list-group-item">List group</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <label class="modal-title">
+                        Hello World!
+                    </label>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Some random content!</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
