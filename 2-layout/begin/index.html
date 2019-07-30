@@ -8,10 +8,62 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <style>
+        div {
+            border: 1px solid black;
+        }
+    </style>
+
     <title>Bootstrap</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Basic Distribution</h1>
+        <div class="row">
+            <div class="col">Col 1</div>
+            <div class="col">Col 1</div>
+            <div class="col">Col 1</div>
+            <div class="col">Col 1</div>
+            <div class="col">Col 1</div>
+        </div>
+
+        <h1>Size of Columns</h1>
+        <div class="row" style="border:1px solid green">
+            <div class="col-2">Col 1</div>
+            <div class="col-10">Col 2</div>
+            <div class="col-4">Col 2</div>
+        </div>
+        <div class="row" style="border:1px solid red">
+            <div class="col-4">Col 1</div>
+            <div class="col-4">Col 2</div>
+            <div class="col-4">Col 2</div>
+        </div>
+
+        <h1>Viewport</h1>
+        <!-- xs sm md lg xl -->
+        <div class="row" style="border:1px solid red">
+            <div class="col-md">Col 1</div>
+            <div class="col-md">Col 2</div>
+        </div>
+
+        <h1>Viewport and Columns</h1>
+        <div class="row" style="border:1px solid red">
+            <div class="col-sm-12 col-md-12 col-lg-3">Col 1</div>
+            <div class="col-sm-12 col-md-12 col-lg-9">Col 2</div>
+        </div>
+
+        <h1>No Gutters</h1>
+        <div class="row no-gutters" style="border:1px solid red">
+            <div class="col-sm-2 col-md-6 col-lg-3">Col 1</div>
+            <div class="col-sm-10 col-md-6 col-lg-9">Col 2</div>
+        </div>
+
+        <h1>Offset</h1>
+        <div class="row" style="border:1px solid red">
+            <div class="col-sm-3">Col 1</div>
+            <div class="col-sm-6 offset-sm-3">Col 2</div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
